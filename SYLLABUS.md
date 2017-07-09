@@ -73,20 +73,16 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * if
 * if...else
 * for
-
 * ; (semicolon)
 * {} (curly braces)
 * Code Blocks { }
 * // (single line comment)
-
 * == (equal to)
 * != (not equal to)
 * < (less than)
 * > (greater than)
 * <= (less than or equal to)
 * >= (greater than or equal to)
-
-
 * && (and)
 * || (or)
 * ! (not)
