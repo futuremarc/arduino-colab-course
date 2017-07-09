@@ -37,7 +37,7 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 	* [What is Arduino?](http://arduino.cc)
 
 	
-## Microcontrollers
+# Microcontrollers
 
 * timers, thermostats, toys, remote controls, microwave ovens
 * Do one specific task and have been programmed to sense and control activity using sensors and actuators.
@@ -47,16 +47,12 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 
 * Actuators
 	* Take action in the physical world. They convert electrical energy back into physical energy, like light and heat and movement.
-
 * Microcontrollers listen to sensors and talk to actuators. They decide what to do based on a program that you write.
-
 * Microcontrollers and the electronics you attach to them are just the skeleton of your projects, though. You’ll need to bring skills you probably already have to put some  flesh on the bones.
 		
 * **IN-CLASS**: Create a list of instructions for each other to do in class. Try to be very specific.
 
-
 ### CLASS 2: Set-up and Commands part 1 (Functions)
-
 
 * Code is like using magic in Harry Potter. You have to get the spelling of the words exactly correct. Though you can make your own magic words too!
 
