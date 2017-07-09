@@ -4,6 +4,8 @@
 
 This course is an introduction to progamming with the [arduino](http://arduino.cc) microcontroller. It will cover the basics of electricy and programming through exploring different components: AC motor, stepper motor, force sensing resistor, flex sensor, LED, RGB LED, light sensor, distance sensor, potentiometer, accelerometer). We will be using the textbook Arduino Projects Book by the Arduino team. This course works directly in conjunction with CB Goodman's set design course in which together the outcome will be to create a 1/4 inch model that replicates a large scale gallery installation exploring climate change.  
 
+## CLASS SCHEDULE
+
 ### CLASS 1: Introduction
 
 * Software, creative coding, and physical computing
@@ -37,14 +39,12 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 	* [What is Arduino?](http://arduino.cc)
 
 	
-# Microcontrollers
+#### Microcontrollers
 
-* timers, thermostats, toys, remote controls, microwave ovens
+* timers, thermostats, toys, remote controls, microwave ovens.
 * Do one specific task and have been programmed to sense and control activity using sensors and actuators.
-
 * Sensors
 	* Listen to the physical world. They convert energy that you give when you press buttons, or wave your arms, or shout, into electrical signals. Buttons and knobs are sensors that you touch with your fingers, but there are many other kinds of sensors.
-
 * Actuators
 	* Take action in the physical world. They convert electrical energy back into physical energy, like light and heat and movement.
 * Microcontrollers listen to sensors and talk to actuators. They decide what to do based on a program that you write.
@@ -55,10 +55,8 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 ### CLASS 2: Set-up and Commands part 1 (Functions)
 
 * Code is like using magic in Harry Potter. You have to get the spelling of the words exactly correct. Though you can make your own magic words too!
-
 * [Arduino Reference](https://www.arduino.cc/en/Reference/HomePage)
 * Be comfortable not knowing everything all at once.
-
 * setup() runs once in the beggining.
 * loop() when setup is finished it runs over and over again.
 * pinMode()
