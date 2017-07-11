@@ -54,16 +54,38 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 ### CLASS 2: Set-up and Commands part 1 (Functions)
 
 * Code is like using magic in Harry Potter. You have to get the spelling of the words exactly correct. Though you can make your own magic words too!
+
+
+
 * [Arduino Reference](https://www.arduino.cc/en/Reference/HomePage)
 * Be comfortable not knowing everything all at once.
 * setup() runs once in the beggining.
 * loop() when setup is finished it runs over and over again.
 * pinMode()
 * digitalWrite()
+* HIGH
+* LOW
 * delay()
-* map()
+* // (single line comment)
 * Serial.begin()
 * Serial.println()
+* map()
+
+
+* [Variables](https://github.com/shiffman/LearningProcessing-p5.js/tree/master/chp04_variables)
+	* Declare
+	* Initialize
+	* Use
+	* 'Built-in' variables
+	* Types
+		* `Boolean`
+		* `String`
+		* `Number`
+
+
+
+
+
 
 ### CLASS 3: Electricity
 
@@ -87,25 +109,12 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * || (or)
 * ! (not)
 
-
-* [Variables](https://github.com/shiffman/LearningProcessing-p5.js/tree/master/chp04_variables)
-	* Declare
-	* Initialize
-	* Use
-	* 'Built-in' variables
-	* Types
-		* `Boolean`
-		* `String`
-		* `Number`
-
 * Variation
 	* [`random()`](http://p5js.org/reference/#/p5/random)
 	* `x = x + 1` shorthand: `x+=1` or even `x++`
 	* [`map()`](http://p5js.org/reference/#/p5/map)
 
 * Debugging
-	* [Chrome Tools](https://developer.chrome.com/devtools/docs/console) (OPTION COMMAND J)
-	* `console.log()`
 
 	
 * [Conditionals](https://github.com/shiffman/LearningProcessing-p5.js/tree/master/chp05_conditionals)
