@@ -64,18 +64,6 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * LOW
 * delay()
 * // (single line comment)
-* Serial.begin()
-* Serial.println()
-* map()
-* [Variables](https://github.com/shiffman/LearningProcessing-p5.js/tree/master/chp04_variables)
-	* Declare
-	* Initialize
-	* Use
-	* 'Built-in' variables
-	* Types
-		* `Boolean`
-		* `String`
-		* `Number`
 
 ### CLASS 3: Electricity
 
@@ -97,19 +85,22 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * bread board diagram https://www.courses.tegabrain.com/SS15/wp-content/uploads/2015/02/breadboard.jpg
 * closer look at arduino
 	* analog vs digital
-* POTENTIOMETERS
+	
+
+* POTENTIOMETERS (walk through workshop)
 	* Serial.begin();
 	* Serial.println()
-* DC MOTOR
+* DC MOTOR  (walk through workshop)
 	* analogRead (for sensors), analogWrite (for actuators), digitalWrite(for turning things on and off)
 	* map()
-* LED
+* LED  (walk through workshop)
 * == (equal to)
 * != (not equal to)
 * < (less than)
 * \> (greater than)
 * <= (less than or equal to)
 * \>= (greater than or equal to)
+
 * if... else
 
 
