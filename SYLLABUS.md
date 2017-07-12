@@ -114,9 +114,9 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * == (equal to)
 * != (not equal to)
 * < (less than)
-* > (greater than)
+* \> (greater than)
 * <= (less than or equal to)
-* >= (greater than or equal to)
+* \>= (greater than or equal to)
 * if... else
 
 
@@ -132,9 +132,9 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * == (equal to)
 * != (not equal to)
 * < (less than)
-* > (greater than)
+* \> (greater than)
 * <= (less than or equal to)
-* >= (greater than or equal to)
+* \>= (greater than or equal to)
 * && (and)
 * || (or)
 * ! (not)
