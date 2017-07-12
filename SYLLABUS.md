@@ -82,16 +82,12 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * what is a circuit
 	* An electric circuit is like a pathway made of wires that electrons can flow through. 
 	* The word “circuit” sounds like “circle,” and a circuit needs to be circular to work. The wires have to go from the power source to the device and back again, so that the electrons can go out and come back. Flowing from power to ground.
-
-
 * variables
 	* like buckets, hold data
 	* types of variable (int, float)
 	* declare variable (int myPin)
 	* assign variable (myPin = 5)
-	* use variable (pinMode(myPin, OUTPUT))
-
-	
+	* use variable (pinMode(myPin, OUTPUT))	
 * Voltage
 * Current
 * Resistance
@@ -101,8 +97,6 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * bread board diagram https://www.courses.tegabrain.com/SS15/wp-content/uploads/2015/02/breadboard.jpg
 * closer look at arduino
 	* analog vs digital
-
-
 * POTENTIOMETERS
 	* Serial.begin();
 	* Serial.println()
@@ -110,7 +104,6 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 	* analogRead (for sensors), analogWrite (for actuators), digitalWrite(for turning things on and off)
 	* map()
 * LED
-
 * == (equal to)
 * != (not equal to)
 * < (less than)
@@ -138,15 +131,11 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * && (and)
 * || (or)
 * ! (not)
-
 * Variation
-	* [`random()`](http://p5js.org/reference/#/p5/random)
+	* random()
 	* `x = x + 1` shorthand: `x+=1` or even `x++`
-	* [`map()`](http://p5js.org/reference/#/p5/map)
-
+	* map()
 * Debugging
-
-	
 * [Conditionals](https://github.com/shiffman/LearningProcessing-p5.js/tree/master/chp05_conditionals)
 	* Boolean expressions
 		* I am hungry (true)
