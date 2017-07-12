@@ -67,15 +67,16 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 
 ### CLASS 3: Electricity
 
-* what is a circuit
-	* An electric circuit is like a pathway made of wires that electrons can flow through. 
-	* The word “circuit” sounds like “circle,” and a circuit needs to be circular to work. The wires have to go from the power source to the device and back again, so that the electrons can go out and come back. Flowing from power to ground.
+* recreate blinking onboard LED
 * variables
 	* like buckets, hold data
 	* types of variable (int, float)
 	* declare variable (int myPin)
 	* assign variable (myPin = 5)
 	* use variable (pinMode(myPin, OUTPUT))	
+* what is a circuit
+	* An electric circuit is like a pathway made of wires that electrons can flow through. 
+	* The word “circuit” sounds like “circle,” and a circuit needs to be circular to work. The wires have to go from the power source to the device and back again, so that the electrons can go out and come back. Flowing from power to ground.
 * Voltage
 * Current
 * Resistance
@@ -85,8 +86,6 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * bread board diagram https://www.courses.tegabrain.com/SS15/wp-content/uploads/2015/02/breadboard.jpg
 * closer look at arduino
 	* analog vs digital
-	
-
 * POTENTIOMETERS (walk through workshop)
 	* Serial.begin();
 	* Serial.println()
@@ -100,7 +99,6 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * \> (greater than)
 * <= (less than or equal to)
 * \>= (greater than or equal to)
-
 * if... else
 
 
