@@ -179,6 +179,12 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 
 * **IN-CLASS**: 
 
+everyone learns: analogWrite()... if, else if...
+* projects:
+	* robot: analogRead() map() servoConnect() //learn about servo library
+	* glacier: analogRead() map() analogWrite() //
+	* tree: value = value + 1, if (a < 242) ..., else if () ...., else if ().... else...
+
 
 ### CLASS 5: Final Projects
 
