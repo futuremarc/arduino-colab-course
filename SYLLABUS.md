@@ -84,14 +84,7 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * illustration 2 http://i.imgur.com/qwBkvg4.png
 * electricity
 * bread board diagram https://www.courses.tegabrain.com/SS15/wp-content/uploads/2015/02/breadboard.jpg
-* closer look at arduino
-	* analog vs digital
-* POTENTIOMETERS (walk through workshop)
-	* Serial.begin();
-	* Serial.println()
-* DC MOTOR  (walk through workshop)
-	* analogRead (for sensors), analogWrite (for actuators), digitalWrite(for turning things on and off)
-	* map()
+
 * LED  (walk through workshop)
 * == (equal to)
 * != (not equal to)
@@ -104,28 +97,18 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 
 ### CLASS 4: Commands part 2 (Functions), conditionals, and other syntax
 
-* if
+* recreate blinking onboard LED
+* recreate LED circuit with meaningful variables
+* change LED 5V power to digital pin 11
+* program LED on breadboard to blink
+* photocell/light sensor circuit
+* analogRead();
+* Serial.begin();
+* Serial.println();
 * if...else
-* for
-* ; (semicolon)
-* {} (curly braces)
-* Code Blocks { }
-* // (single line comment)
-* == (equal to)
-* != (not equal to)
-* < (less than)
-* \> (greater than)
-* <= (less than or equal to)
-* \>= (greater than or equal to)
-* && (and)
-* || (or)
-* ! (not)
-* Variation
-	* random()
-	* `x = x + 1` shorthand: `x+=1` or even `x++`
-	* map()
-* Debugging
-* [Conditionals](https://github.com/shiffman/LearningProcessing-p5.js/tree/master/chp05_conditionals)
+* if...else if... else
+
+* Conditionals
 	* Boolean expressions
 		* I am hungry (true)
 		* I am afraid of computer programming (false)
@@ -143,26 +126,6 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 		* Operate as questions
 			* Allows us to execute certain instructions based on if the answer is `true` or `false`
 			* If I am hungry then eat some food, otherwise if I am thirsty drink some water, otherwise take a nap
-			* Pseudo Code
-				* If the mouse is on the left side of the screen, draw a rectangle on the left side of the screen
-					* `if (mouseX < width/2){
-						fill(255);
-						rect(0,0,width/2,height);
-					}`
-			* Can also be expanded by `else`
-				* `if (mouseX < width/2){
-					background(255);
-				} else {
-					background(0);
-				}`
-			* Can be further expanded by `else if`
-				* `if (mouseX < width/3){
-					background(255);
-				} else if (mouseX < 2 * width/3){
-					background(127);
-				} else {
-					background(0);
-				}`
 			* Grading system excercise
 				* `var grade = random(0,100);
 					if (___) {
@@ -184,12 +147,36 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 		* We could use a nested if statement, but it can be simpler with using the logical AND (`&&`)
 		* If my temperature is NOT greater than 98.6, I won't call in sick to CoLab
 		* If I am stung by a bee AND I am NOT allergic to bees, don't worry!
-		* `if (mousePressed){
-			ellipse(width/2, height/2, 100, 100);
+		* `if (lightSensorValue > threshold){
+			digitalWrite(LEDPin, HIGH);
 		} else {
-			rect(width/2, height/2, 100, 100);
+			digitalWrite(LEDPin, LOW);
 		}`
 	* `Boolean` variables
+
+* == (equal to)
+* != (not equal to)
+* < (less than)
+* \> (greater than)
+* <= (less than or equal to)
+* \>= (greater than or equal to)
+* &&
+* ||
+* make LED turn on and off according to threshold
+* closer look at arduino
+	* analogWrite (for numbers ranging 0-255), digitalWrite(for numbers 0,1; turning things on and off)
+	* map()
+* remap values of light sensor to control dimming the LED
+
+
+* for
+* ; (semicolon)
+* Code Blocks { }
+* // (single line comment)
+* && (and)
+* || (or)
+* ! (not)
+
 * **IN-CLASS**: 
 
 
