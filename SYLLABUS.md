@@ -86,13 +86,7 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * bread board diagram https://www.courses.tegabrain.com/SS15/wp-content/uploads/2015/02/breadboard.jpg
 
 * LED  (walk through workshop)
-* == (equal to)
-* != (not equal to)
-* < (less than)
-* \> (greater than)
-* <= (less than or equal to)
-* \>= (greater than or equal to)
-* if... else
+
 
 
 ### CLASS 4: Commands part 2 (Functions), conditionals, and other syntax
@@ -105,9 +99,25 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * analogRead();
 * Serial.begin();
 * Serial.println();
-* if...else
-* if...else if... else
 
+* **IN-CLASS**: 
+
+everyone learns: analogWrite()... if, else if...
+* projects:
+	* robot: analogRead() map() servoConnect() //learn about servo library
+	* glacier: analogRead() map() analogWrite() //
+	* tree: value = value + 1, if (a < 242) ..., else if () ...., else if ().... else...
+
+
+### CLASS 5: Final Projects
+
+* review terms & concepts
+* fix photocell circuit
+* map() && analogWrite()
+	* analogWrite (for numbers ranging 0-255), digitalWrite(for numbers 0,1; turning things on and off)
+* make photocell adjust LED
+* tree project
+* if...else if... else
 * Conditionals
 	* Boolean expressions
 		* I am hungry (true)
@@ -153,7 +163,6 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 			digitalWrite(LEDPin, LOW);
 		}`
 	* `Boolean` variables
-
 * == (equal to)
 * != (not equal to)
 * < (less than)
@@ -163,37 +172,10 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * &&
 * ||
 * make LED turn on and off according to threshold
-* closer look at arduino
-	* analogWrite (for numbers ranging 0-255), digitalWrite(for numbers 0,1; turning things on and off)
-	* map()
 * remap values of light sensor to control dimming the LED
+* glacier project
+* robot project
 
-
-* for
-* ; (semicolon)
-* Code Blocks { }
-* // (single line comment)
-* && (and)
-* || (or)
-* ! (not)
-
-* **IN-CLASS**: 
-
-everyone learns: analogWrite()... if, else if...
-* projects:
-	* robot: analogRead() map() servoConnect() //learn about servo library
-	* glacier: analogRead() map() analogWrite() //
-	* tree: value = value + 1, if (a < 242) ..., else if () ...., else if ().... else...
-
-
-### CLASS 5: Final Projects
-
-* Your projects!
-* Debug
-* Presentations
-* Next Steps
-	* [Complete Learning Processing with Daniel Shiffman!](http://icm.shiffman.net)
-	* See [object oriented programming example](https://github.com/futuremarc/p5-creative-coding-course/blob/master/inclass/objectoriented_inclass10.js)
 
 ### KEYWORDS
 
@@ -215,5 +197,3 @@ everyone learns: analogWrite()... if, else if...
 
 	* [W3Schools](http://www.w3schools.com/)
 	* [Codecademy](http://www.codecademy.com/learn)
-* Learn Arduino
-
