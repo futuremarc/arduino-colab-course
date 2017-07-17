@@ -2,7 +2,7 @@
 
 ## OVERVIEW
 
-This course is an introduction to progamming with the [arduino](http://arduino.cc) microcontroller. It will cover the basics of electricy and programming through exploring different components: AC motor, stepper motor, force sensing resistor, flex sensor, LED, RGB LED, light sensor, distance sensor, potentiometer, accelerometer). We will be using the textbook Arduino Projects Book by the Arduino team. This course works directly in conjunction with CB Goodman's set design course in which together the outcome will be to create a 1/4 inch model that replicates a large scale gallery installation exploring climate change.  
+This course is an introduction to progamming with the [arduino](http://arduino.cc) microcontroller. It will cover the basics of electricy and programming through exploring different components: DC motor, servo motor, force sensing resistor, flex sensor, LED, RGB LED, light sensor, distance sensor, potentiometer, accelerometer). We will be using the textbook Arduino Projects Book by the Arduino team. This course works directly in conjunction with CB Goodman's set design course in which together the outcome will be to create a 1/4 inch model that replicates a large scale gallery installation exploring climate change.  
 
 ## SCHEDULE
 
