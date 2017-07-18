@@ -56,14 +56,22 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * Code is like using magic in Harry Potter. You have to get the spelling of the words exactly correct. Though you can make your own magic words too!
 * [Arduino Reference](https://www.arduino.cc/en/Reference/HomePage)
 * Be comfortable not knowing everything all at once.
-* setup() runs once in the beggining.
-* loop() when setup is finished it runs over and over again.
+* void setup() runs once in the beggining.
+* void loop() when setup is finished it runs over and over again.
+* code block
+* syntax
+* ;
+* ()
+* parameters
+* camelcase
+* uppercase
 * pinMode()
 * digitalWrite()
 * HIGH
 * LOW
 * delay()
 * // (single line comment)
+* variables
 
 ### CLASS 3: Electricity
 
