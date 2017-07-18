@@ -65,13 +65,20 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 * parameters
 * camelcase
 * uppercase
+* reintroduce arduino
+* pins can either take stuff in or put stuff out (voltage)
+
 * pinMode()
+* INPUT
+* OUTPUT
 * digitalWrite()
 * HIGH
 * LOW
 * delay()
 * // (single line comment)
 * variables
+
+** IN CLASS: make pin 13 blink on and off. If you finish early write a sentence in morse code.
 
 ### CLASS 3: Electricity
 
