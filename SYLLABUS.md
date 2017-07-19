@@ -81,14 +81,14 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 ** IN CLASS: make pin 13 blink on and off. If you finish early write a sentence in morse code.
 
 ### CLASS 3: Electricity
-
-* recreate blinking onboard LED
+* review
 * variables
 	* like buckets, hold data
 	* types of variable (int, float)
 	* declare variable (int myPin)
 	* assign variable (myPin = 5)
 	* use variable (pinMode(myPin, OUTPUT))	
+* recreate blinking onboard LED using variables
 * what is a circuit
 	* An electric circuit is like a pathway made of wires that electrons can flow through. 
 	* The word “circuit” sounds like “circle,” and a circuit needs to be circular to work. The wires have to go from the power source to the device and back again, so that the electrons can go out and come back. Flowing from power to ground.
