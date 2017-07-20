@@ -106,24 +106,31 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 
 ### CLASS 4: Commands part 2 (Functions), conditionals, and other syntax
 
-* recreate blinking onboard LED
-* recreate LED circuit with meaningful variables
 * change LED 5V power to digital pin 11
 * program LED on breadboard to blink
-* photocell/light sensor circuit
 * analogRead();
 * Serial.begin();
 * Serial.println();
+* week 1: photocell/light sensor circuit
+* week 2: FSR circuit: http://bildr.org/blog/wp-content/uploads/2012/03/Large_FSR_Arduino_Hookup.png
+* week 2: using POT: http://cdn2.bigcommerce.com/server800/a8995/product_images/uploaded_images/arduino-pot-bb.png?t=1407974685
+* map()
+* analogWrite()
 
 * **IN-CLASS**: 
 
 everyone learns: analogWrite()... if, else if...
 * projects:
-	* robot: analogRead() map() servoConnect() //learn about servo library
-	* glacier: analogRead() map() analogWrite() //
-	* tree: value = value + 1, if (a < 242) ..., else if () ...., else if ().... else...
+	* week 1
+		* robot: analogRead() map() servoConnect() //learn about servo library
+		* glacier: analogRead() map() analogWrite() //
+		* tree: value = value + 1, if (a < 242) ..., else if () ...., else if ().... else...
 
-
+	* week 2
+		* turtle: analogRead(): if...else... //5 FSR, 1 LED
+		* skull: if...else... timer... 3 LED
+		* junkmail: make motor spin.... 1 DC motor
+	
 ### CLASS 5: Final Projects
 
 * review terms & concepts
