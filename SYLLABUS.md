@@ -106,20 +106,23 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 
 ### CLASS 4: Commands part 2 (Functions), conditionals, and other syntax
 
-* change LED 5V power to digital pin 11
-* program LED on breadboard to blink
+*  **IN-CLASS**: program LED on breadboard to blink
+	* change power from 5V to getting power from pin 11
+	
 * analogRead();
 * Serial.begin();
 * Serial.println();
-* week 1: photocell/light sensor circuit
-* week 2: FSR circuit: http://bildr.org/blog/wp-content/uploads/2012/03/Large_FSR_Arduino_Hookup.png
-* week 2: using POT: http://cdn2.bigcommerce.com/server800/a8995/product_images/uploaded_images/arduino-pot-bb.png?t=1407974685
+* **IN-CLASS** photocell circuit/ FSR circuit
+	* FSR circuit: http://bildr.org/blog/wp-content/uploads/2012/03/Large_FSR_Arduino_Hookup.png
+	* using POT: http://cdn2.bigcommerce.com/server800/a8995/product_images/uploaded_images/arduino-pot-bb.png?t=1407974685
+	
 * map()
 * analogWrite()
 
-* **IN-CLASS**: 
+* **IN-CLASS**: map 1 input to 1 LED and another input to another LED
 
-everyone learns: analogWrite()... if, else if...
+* if...else...else if
+
 * projects:
 	* week 1
 		* robot: analogRead() map() servoConnect() //learn about servo library
