@@ -110,6 +110,7 @@ This course is an introduction to progamming with the [arduino](http://arduino.c
 	* change power from 5V to getting power from pin 11
 	
 * analogRead();
+* my code works: https://pbs.twimg.com/media/A6PSWTFCUAI7N-5.jpg
 * Serial.begin();
 * Serial.println();
 * **IN-CLASS** photocell circuit/ FSR circuit
